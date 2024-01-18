@@ -1,8 +1,12 @@
 # traffic-speed-estimation
 I have used YOLO v8 for vehicle detection
+
 Used  ultralytics.solutions.object_counter for counting the number of vehicles comes IN and OUT using a reference line.
-USed ultralytics.solutions.speed_estimation for calculating the speed of the vehicle entering the reference line.
+
+Used ultralytics.solutions.speed_estimation for calculating the speed of the vehicle entering the reference line.
+
 Speed estimation uses ByteTracker algorithm.
+
 I have got small values as speed since I have run it on a CPU machine. Using a high end system will give more accurate results.
 
 This object counting can be used in various application like 
